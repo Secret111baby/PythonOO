@@ -1,0 +1,19 @@
+# try:
+#      num1 = int(input("请输入一个除数"))
+#      num2 = int(input("请输入一个被除数"))
+#      print(num1/num2)
+# # except ZeroDivisionError:
+# #      print("被除数不能为0")
+# except:
+#     print("这是一个能用型")
+
+class Person():
+    name = "Secret"
+
+    def get_name(self):
+        return self.name
+
+print(Person.name)
+p = Person()
+print(p.name)
+print(p.get_name())
